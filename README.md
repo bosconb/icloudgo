@@ -8,6 +8,7 @@ Access Apple iCloud via go, go port of pyicloud.
 
 ```shell
 docker run \
+  -i \
   -e ICLOUD_USERNAME=your_icloud_username \
   -e ICLOUD_PASSWORD=your_icloud_password \
   -e ICLOUD_COOKIE_DIR=/icloud_cookie \
